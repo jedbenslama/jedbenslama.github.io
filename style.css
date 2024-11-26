@@ -1,0 +1,313 @@
+/* html{
+    cursor:default;
+} */
+html {
+    scroll-behavior: smooth;
+    color:white;
+    background: radial-gradient(#1b2735, #090a0f);
+}
+.custombr{
+    content:" ";
+    display: block;
+    margin: 60px 0;
+}
+.smallbr{
+    content:" ";
+    display: block;
+    margin: 5px 0;
+}
+a{
+    color:white;
+    transition:0.5s;
+}
+.topnav{
+    z-index: 1000;
+    display:flex;
+    justify-content: center;
+    align-content: space-between;
+    width:100%;
+    margin: auto;
+    position:fixed;
+    top:0;
+    left:0;
+    dl{
+        padding: 13px;
+        list-style-type:none;
+        margin:0;
+        right:auto;
+        left:auto;
+        justify-content: space-around;
+    }
+    a{
+        color:#FFFFFF;
+        padding: 10px;
+        border-radius: 12px;
+        text-decoration: none;
+        transition: 0.5s;
+        font-size:16px;
+        width: calc(100% / 4);
+        text-align: center;
+        font-family: "EB Garamond", "EB Garamond", sans-serif;
+        text-shadow: 0px 0px 10px black;
+    }
+    a:hover{
+        color:#00ccff;
+    }
+}
+.hrefrezo{
+    color:white;
+}
+.accueil{
+    font-family: "EB Garamond", "EB Garamond", sans-serif;
+    width: 100%;
+    h1{
+        text-align:center;
+        font-family: "EB Garamond", "EB Garamond", sans-serif;
+        font-size: 32px;
+        transition: 0.5s;
+    }
+    dl{
+        display:flex;
+        list-style-type:none;
+        justify-content: center;
+    }
+}
+.lineheight{
+    line-height:5px;
+}
+.couleurgris{
+    color:rgb(202, 202, 202);
+    font-weight: 100;
+}
+.elementdedl{
+    display: block;
+    text-align: center;
+    width: calc(100% / 3);
+    h3{
+        font-size: 1.17em;
+        transition: 0.5s;
+    }
+    img{
+        margin:auto;
+        border-radius:50%;
+        width:100%;
+        max-width: 200px;
+        transition:0.5s
+    }
+    p{
+        font-size: 16px;
+        transition: 0.5s;
+    }
+}
+.soustitre{
+    display: block;
+    text-align: center;
+    width: 100%;
+    h3{
+        font-size: 1.17em;
+        transition: 0.5s;
+    }
+    img{
+        margin:auto;
+        border-radius:50%;
+        width:100%;
+        max-width: 200px;
+        transition:0.5s
+    }
+    p{
+        font-size: 16px;
+        transition: 0.5s;
+    }
+}
+.hrptite{
+    width:50%;
+    margin: 20px auto;
+}
+.bigjed{
+    display: block;
+    text-align: center;
+    width: 100%;
+    img{
+        margin:auto;
+        border-radius:50%;
+        max-width:500px;
+        width: 80%;
+        transition:0.5s
+    }
+}
+.titre{
+    display: block;
+    text-align: center;
+    width: 100%;
+    img{
+        margin:auto;
+        border-radius:50%;
+        width:100px;
+        transition:0.5s
+    }
+    dl{
+        justify-content: center;
+    }
+}
+.education{
+    font-family: "EB Garamond", "EB Garamond", sans-serif;
+    .elementdedl{
+        img{
+            max-width: 130px;
+        }
+    }
+    h1{
+        text-align: center;
+        transition: 0.5s;
+    }
+    dl{
+        display:flex;
+        list-style-type:none;
+        justify-content: center;
+    }
+    img{
+        border-radius: 0;
+    }
+}
+.reseauxlogos{
+    justify-content: center;
+    width: 20%;
+    min-width: 100px;
+    text-align: center;
+    margin:10px auto 10px auto;
+    display:flex !important;
+}
+.verticalign{
+    position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%);
+}
+.reseau{
+    i{
+        font-size:50px;
+        margin:10px;
+        transition-duration: 0.5s;
+    }
+    i:hover{
+        color:rgb(0, 153, 255);
+    }
+    .plusvin::before{
+        margin:0px 10px 0px 10px;
+    }
+}
+.logoexp{
+    font-size: 100px;
+}
+@media screen and (max-width:425px) {
+    .accueil dl{
+        text-align: center;
+        margin:auto;
+        display:block;
+        list-style-type:none;
+        justify-content: center;
+        .elementdedl{
+            text-align: center;
+            margin:auto;
+        }
+    }
+    .elementdedl{
+        width: 100%;
+        img{
+            margin:auto;
+            border-radius:50%;
+            width: 60%;
+            transition:0.5s
+        }
+    }
+}
+@media all and (min-width:426px) and (max-width:768px)  {
+    .elementdedl{
+        padding:0 10px 0 10px;
+    }
+}
+@media screen and (max-width:550px) {
+    .topnav a{
+        font-size: 3vw;
+        transition:0s;
+    }
+}
+
+.phoneresize{
+    padding-top: 4px;
+    font-size: 44px !important;
+}
+  
+.logoexp:hover{
+    animation: rainbow 2.5s linear;
+    animation-iteration-count: infinite;
+  }
+.imglogoexp{
+    filter: invert(95%) sepia(21%) saturate(0%) hue-rotate(346deg) brightness(108%) contrast(101%);
+}
+.imglogoexp:hover{
+    animation: rainbow_filters 2.5s linear;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rainbow{ /* source: https://codepen.io/zak/pen/rWJzPy */
+          100%,0%{
+              color: rgb(255, 0, 0);
+          }
+          8%{
+              color: rgb(255,127,0);
+          }
+          16%{
+              color: rgb(255,255,0);
+          }
+          25%{
+              color: rgb(127,255,0);
+          }
+          33%{
+              color: rgb(0,255,0);
+          }
+          41%{
+              color: rgb(0,255,127);
+          }
+          50%{
+              color: rgb(0,255,255);
+          }
+          58%{
+              color: rgb(0,127,255);
+          }
+          66%{
+              color: rgb(0,0,255);
+          }
+          75%{
+              color: rgb(127,0,255);
+          }
+          83%{
+              color: rgb(255,0,255);
+          }
+          91%{
+              color: rgb(255,0,127);
+          }
+  }
+  @keyframes rainbow_filters{ /* c'est la meme animation qu'avant mais j'ai utilisé des filtres avec https://isotropic.co/tool/hex-color-to-css-filter/ pour changer les couleurs d'une image (normalement pas que les images vectorielles mais je l'utilise principalement pour ça) */
+    100%,0%{
+        filter: invert(16%) sepia(94%) saturate(7491%) hue-rotate(359deg) brightness(94%) contrast(114%);
+    }
+    41%{
+        filter: invert(79%) sepia(56%) saturate(1920%) hue-rotate(87deg) brightness(98%) contrast(106%);
+    }
+    50%{
+        filter: invert(93%) sepia(100%) saturate(4791%) hue-rotate(100deg) brightness(104%) contrast(102%);
+    }
+    58%{
+        filter: invert(49%) sepia(70%) saturate(6336%) hue-rotate(197deg) brightness(102%) contrast(106%);
+    }
+    66%{
+        filter: invert(9%) sepia(99%) saturate(7318%) hue-rotate(248deg) brightness(93%) contrast(145%);
+    }
+    75%{
+        filter: invert(11%) sepia(100%) saturate(5636%) hue-rotate(271deg) brightness(100%) contrast(122%);
+    }
+    83%{
+        filter: invert(21%) sepia(93%) saturate(5452%) hue-rotate(295deg) brightness(115%) contrast(123%);
+    }
+    91%{
+        filter: invert(13%) sepia(87%) saturate(6072%) hue-rotate(323deg) brightness(101%) contrast(104%);
+    }
+}
