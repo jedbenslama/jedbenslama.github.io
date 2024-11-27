@@ -58,6 +58,13 @@ a{
     color:white;
 }
 .accueil{
+    .elementdedl{
+        background-attachment: fixed;
+        background-size:600px;
+        background-position: center;
+        background-repeat: repeat;
+        background-image: url("images/particles.png");
+    }
     font-family: "EB Garamond", "EB Garamond", sans-serif;
     width: 100%;
     h1{
