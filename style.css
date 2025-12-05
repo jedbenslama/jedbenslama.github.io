@@ -26,7 +26,7 @@ html, body { height: 100%; margin: 0; }
 
 .tl::-webkit-scrollbar, .tl::-webkit-scrollbar-button { display: none; } /* pour desactiver la scrollbar sur chrome */
 .bl::-webkit-scrollbar, .bl::-webkit-scrollbar-button { display: none; } /* pour desactiver la scrollbar sur chrome */
-
+#iframegh::-webkit-scrollbar, #iframegh::-webkit-scrollbar-button { display: none; }
 .tr { top: 16px;
     right: 16px;
     background-color: rgb(0, 0, 0, 0.9);
