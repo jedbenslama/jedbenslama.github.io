@@ -439,4 +439,7 @@ a{
     .stage{
         position: relative;
     }
+    body{
+        background-color:#222222;
+    }
 }
