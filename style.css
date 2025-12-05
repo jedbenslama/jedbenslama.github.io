@@ -42,7 +42,6 @@ html, body { height: 100%; margin: 0; }
 }
 .bl { bottom: 16px;
     left: 16px;
-    background-color: rgb(198, 198, 198);
     text-align: center;
     background-color: #19191e;
 }
